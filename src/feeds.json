@@ -1,0 +1,31 @@
+{
+  "providers": [
+    {
+      "id": "toi",
+      "name": "The Times of India",
+      "country": "India",
+      "category": "General",
+      "feeds": [
+        { "title": "Top Stories", "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms" }
+      ]
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "country": "United Kingdom",
+      "category": "General",
+      "feeds": [
+        { "title": "World News", "url": "https://www.theguardian.com/world/rss" }
+      ]
+    },
+    {
+      "id": "nyt",
+      "name": "New York Times",
+      "country": "United States",
+      "category": "General",
+      "feeds": [
+        { "title": "Home Page", "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" }
+      ]
+    }
+  ]
+}

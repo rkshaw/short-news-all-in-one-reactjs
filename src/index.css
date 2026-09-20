@@ -1,0 +1,28 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.app { padding: 16px }
+header { background: #333; color: white; padding: 12px }
+.controls { margin: 12px 0 }
+.tiles { display: flex; gap: 8px; flex-wrap: wrap }
+.provider-tile { border: 1px solid #ddd; padding: 12px; width: 200px; cursor: pointer }
+.menu ul { list-style: none; padding: 0; display: flex; gap: 8px }
+.menu li { cursor: pointer; padding: 8px; background: #f2f2f2 }
+.feedlist { margin-top: 16px }
+.error { color: red }
+
+/* Accordion styles */
+.accordion { border-top: 1px solid #ddd; padding-top: 12px }
+.accordion-header-top { display:flex; justify-content:space-between; align-items:center }
+.accordion-nav button { margin-left:8px }
+.accordion-section { border-bottom:1px solid #eee; padding:8px 0 }
+.accordion-section-title { cursor:pointer; display:flex; justify-content:space-between; align-items:center }
+.accordion-section-body { padding:8px 0 12px 8px }
+.feed-item { margin:6px 0 }
+
+.feed-item.unread > .article-link { font-weight: 700; color: #1a73e8 }
+.article-link { background:none; border:none; padding:0; font:inherit; cursor:pointer; text-align:left }
+.article-viewer { border:1px solid #eee; padding:12px; margin-top:12px }
+.article-controls { display:flex; gap:8px; margin-bottom:8px }
+.article-meta { color:#666; margin-bottom:8px }
+
+img { width: 100%; height: auto }
+.article-content { margin-bottom: 12px; text-align: justify }
