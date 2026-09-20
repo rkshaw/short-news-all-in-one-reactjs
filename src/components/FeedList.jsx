@@ -56,7 +56,7 @@ export default function FeedList({ provider }) {
         const flat = []
         let counter = 0
         for (const feed of provider.feeds) {
-          const resp = await fetch('http://theutility.co.in/proxy.php', {
+          const resp = await fetch('https://theutility.co.in/proxy.php', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
